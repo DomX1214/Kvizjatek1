@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9. Osztályos Kvíz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="kviz-doboz">
+    <h1>Digitális Kultúra Kvíz</h1>
+    <p class="alcim">9. osztályos informatikai alapok</p>
+
+    <form>
+      <!-- 1. Kérdés -->
+      <div class="kerdes">
+        <p>1. Mit jelent a HTML?</p>
+        <label><input type="radio" name="k1" class="helyes"> HyperText Markup Language</label>
+        <label><input type="radio" name="k1"> High Tech Main Language</label>
+        <label><input type="radio" name="k1"> Home Tool Media Level</label>
+        <label><input type="radio" name="k1"> Hyperlink Text Mode</label>
+      </div>
+
+      <!-- 2. Kérdés -->
+      <div class="kerdes">
+        <p>2. Melyik a legfejlettebb (legnagyobb) címsor HTML-ben?</p>
+        <label><input type="radio" name="k2"> &lt;p&gt;</label>
+        <label><input type="radio" name="k2" class="helyes"> &lt;h1&gt;</label>
+        <label><input type="radio" name="k2"> &lt;h6&gt;</label>
+        <label><input type="radio" name="k2"> &lt;head&gt;</label>
+      </div>
+
+      <!-- 3. Kérdés -->
+      <div class="kerdes">
+        <p>3. Mi a CSS feladata?</p>
+        <label><input type="radio" name="k3"> A weboldal vázának megírása</label>
+        <label><input type="radio" name="k3" class="helyes"> A weboldal kinézetének és stílusának megadása</label>
+        <label><input type="radio" name="k3"> Programkódok futtatása a szerveren</label>
+        <label><input type="radio" name="k3"> Adatbázisok mentése</label>
+      </div>
+
+      <!-- 4. Kérdés -->
+      <div class="kerdes">
+        <p>4. Milyen eszköz a billentyűzet?</p>
+        <label><input type="radio" name="k4" class="helyes"> Bemeneti (input) eszköz</label>
+        <label><input type="radio" name="k4"> Kimeneti (output) eszköz</label>
+        <label><input type="radio" name="k4"> Háttértár</label>
+        <label><input type="radio" name="k4"> Hálózati elosztó</label>
+      </div>
+
+      <!-- 5. Kérdés -->
+      <div class="kerdes">
+        <p>5. Mi a CPU?</p>
+        <label><input type="radio" name="k5"> Operatív memória</label>
+        <label><input type="radio" name="k5" class="helyes"> Központi feldolgozó egység (processzor)</label>
+        <label><input type="radio" name="k5"> Grafikus kártya</label>
+        <label><input type="radio" name="k5"> Merevlemez</label>
+      </div>
+
+      <!-- 6. Kérdés -->
+      <div class="kerdes">
+        <p>6. Melyik protokoll jelenti a biztonságos webböngészést?</p>
+        <label><input type="radio" name="k6"> HTTP</label>
+        <label><input type="radio" name="k6" class="helyes"> HTTPS</label>
+        <label><input type="radio" name="k6"> FTP</label>
+        <label><input type="radio" name="k6"> IP</label>
+      </div>
+
+      <!-- 7. Kérdés -->
+      <div class="kerdes">
+        <p>7. Melyik memóriából törlődik az adat a gép kikapcsolásakor?</p>
+        <label><input type="radio" name="k7"> ROM</label>
+        <label><input type="radio" name="k7"> SSD</label>
+        <label><input type="radio" name="k7" class="helyes"> RAM</label>
+        <label><input type="radio" name="k7"> HDD</label>
+      </div>
+
+      <!-- 8. Kérdés -->
+      <div class="kerdes">
+        <p>8. Melyik HTML taggel hozunk létre hivatkozást (linket)?</p>
+        <label><input type="radio" name="k8"> &lt;link&gt;</label>
+        <label><input type="radio" name="k8" class="helyes"> &lt;a&gt;</label>
+        <label><input type="radio" name="k8"> &lt;href&gt;</label>
+        <label><input type="radio" name="k8"> &lt;url&gt;</label>
+      </div>
+
+      <!-- 9. Kérdés -->
+      <div class="kerdes">
+        <p>9. Melyik NEM operációs rendszer?</p>
+        <label><input type="radio" name="k9"> Windows</label>
+        <label><input type="radio" name="k9"> Linux</label>
+
+        <label><input type="radio" name="k9" class="helyes"> Google Chrome</label>
+        <label><input type="radio" name="k9"> macOS</label>
+      </div>
+
+      <!-- 10. Kérdés -->
+      <div class="kerdes">
+        <p>10. Mi a pendrive?</p>
+        <label><input type="radio" name="k10" class="helyes"> Hordozható háttértár</label>
+        <label><input type="radio" name="k10"> Processzor hűtő</label>
+        <label><input type="radio" name="k10"> Monitor típus</label>
+        <label><input type="radio" name="k10"> Hálózati kábel</label>
+      </div>
+
+      <!-- Eredmény ellenőrzése JS nélkül -->
+      <div class="eredmeny-resz">
+        <input type="checkbox" id="kiertekeles">
+        <label for="kiertekeles" class="gomb">Eredmény megtekintése</label>
+
+        <div class="eredmeny-doboz">
+          <h2>Eredményed</h2>
+          <p class="pontszam">Pontszám: </p>
+          <button type="reset" class="ujra-gomb">Újra</button>
+        </div>
+      </div>
+
+    </form>
+  </main>
+
+</body>
+</html>
